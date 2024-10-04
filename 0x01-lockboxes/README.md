@@ -5,11 +5,16 @@ This project explores an algorithmic solution to determine whether all boxes in 
 
 ## Concepts
 - **Lists and List Manipulation**: Understand how to iterate and manage lists in Python. [Python Lists (Python Official Documentation)](https://docs.python.org/3/tutorial/datastructures.html)
-- **Graph Theory Basics**: Applying graph traversal algorithms (Depth-First Search or Breadth-First Search) can be beneficial in this context.
-- **Algorithmic Complexity**: Optimizing the performance of your solution, particularly in time and space complexity, is key.
-- **Recursion**: Some implementations may involve recursive traversal through the boxes.
-- **Queue and Stack**: Use of data structures like queues and stacks to traverse through the boxes and keys.
-- **Set Operations**: Sets can be used to keep track of visited boxes or collected keys.
+
+- **Graph Theory Basics**: Applying graph traversal algorithms (Depth-First Search or Breadth-First Search) can be beneficial in this context. [Graph Theory (Khan Academy)](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs)
+
+- **Algorithmic Complexity**: Optimizing the performance of your solution, particularly in time and space complexity, is key. [Big O Notation (GeeksforGeeks)](https://www.geeksforgeeks.org/asymptotic-notation-and-analysis-based-on-input-size-of-algorithms/)
+
+- **Recursion**: Some implementations may involve recursive traversal through the boxes. [Recursion in Python (Real Python)](https://realpython.com/python-recursion/)
+
+- **Queue and Stack**: Use of data structures like queues and stacks to traverse through the boxes and keys. [Python Queue and Stack (GeeksforGeeks)](https://www.geeksforgeeks.org/queue-in-python/)
+
+- **Set Operations**: Sets can be used to keep track of visited boxes or collected keys. [Python Sets (Python Official Documentation)](https://docs.python.org/3/tutorial/datastructures.html#sets)
 
 ## Tasks
 
