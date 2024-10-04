@@ -4,7 +4,7 @@
 This project explores an algorithmic solution to determine whether all boxes in a sequence can be unlocked. The boxes are numbered sequentially, and each box may contain keys to other boxes. You need to implement a function to figure out if all the boxes can be opened.
 
 ## Concepts
-- **Lists and List Manipulation**: Understand how to iterate and manage lists in Python.
+- **Lists and List Manipulation**: Understand how to iterate and manage lists in Python. [Python Lists (Python Official Documentation)](https://docs.python.org/3/tutorial/datastructures.html)
 - **Graph Theory Basics**: Applying graph traversal algorithms (Depth-First Search or Breadth-First Search) can be beneficial in this context.
 - **Algorithmic Complexity**: Optimizing the performance of your solution, particularly in time and space complexity, is key.
 - **Recursion**: Some implementations may involve recursive traversal through the boxes.
