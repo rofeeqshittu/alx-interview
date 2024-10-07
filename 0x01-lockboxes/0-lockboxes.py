@@ -1,4 +1,15 @@
+#!/usr/bin/python3
+"""
+    Module containing canUnlockAll(boxes) fxn
+"""
+
+
 def canUnlockAll(boxes):
+    """ 
+    Checks if all the boxes in a list of boxes containing the keys
+    (indices) to other boxes can be unlocked given that the first
+    box is unlocked.
+    """
     unlocked = [False] * len(boxes)  # Track if a box is unlocked
     unlocked[0] = True  # Box 0 is always unlocked
     keys = [0]  # Start with the key to box 0
@@ -10,4 +21,4 @@ def canUnlockAll(boxes):
                 unlocked[key] = True
                 keys.append(key)  # Add the key to unlock the next box
 
-    return all(unlocked)  # Return True if all boxes are unlocked
+    return all(unlocked)  # Return True if all boxes are unlocke
