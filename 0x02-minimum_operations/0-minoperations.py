@@ -24,4 +24,4 @@ def minOperations(n):
         else:
             factor += 1  # Move to the  next factor
 
-        return operations
+    return operations
