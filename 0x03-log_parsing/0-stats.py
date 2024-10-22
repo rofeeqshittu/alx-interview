@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Contains print_stats function. 
+    Contains print_stats function.
 """
 import sys
 import re
@@ -13,23 +13,27 @@ def print_stats(total_size, status_count):
         if status_count[code] > 0:
             print("{}: {}".format(code, status_count[code]))
 
+
 if __name__ == "__main__":
     total_size = 0
-    status_count = {200: 0, 301: 0, 400: 0, 401: 0, 403: 0, 404: 0, 405: 0, 500: 0}
+    status_count = {200: 0, 301: 0, 400: 0, 401: 0,
+                    403: 0, 404: 0, 405: 0, 500: 0}
     line_count = 0
 
     try:
         for line in sys.stdin:
             line_count += 1
             # Parse the line using a regular expression
-            match = re.search(r'(\S+) - \[(.*?)\] "GET /projects/\d+ HTTP/1\.1" (\d{3}) (\d+)', line)
-            if match:
-                status_code = int(match.group(3))
-                file_size = int(match.group(4))
-                
+            mach = re.search(r'(\S+) - \[(.*?)\] "GET /projects/\d+ HTTP/1\.1"'
+                             r'(\d{3}) (\d+)', line)
+
+            if mach:
+                status_code = int(mach.group(3))
+                file_size = int(mach.group(4))
+
                 # Accumulate file size
                 total_size += file_size
-                
+
                 # Count the status code
                 if status_code in status_count:
                     status_count[status_code] += 1
