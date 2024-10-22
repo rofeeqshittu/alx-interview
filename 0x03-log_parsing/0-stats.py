@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""
+    Contains print_stats function. 
+"""
 import sys
 import re
+
 
 def print_stats(total_size, status_count):
     """Print the current statistics"""
