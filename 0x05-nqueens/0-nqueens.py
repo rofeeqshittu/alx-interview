@@ -2,7 +2,7 @@
 """
     Solves the N queens puzzle by placing N non-attacking queens
     on an N×N board.
-    """
+"""
 import sys
 
 
