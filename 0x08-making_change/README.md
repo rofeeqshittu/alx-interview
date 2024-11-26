@@ -73,3 +73,13 @@ print(makeChange([1, 2, 25], 37))
 print(makeChange([1256, 54, 48, 16, 102], 1453))
 ```
 ---
+## Resources:
+- **Python Official Documentation:**
+    - [More Control Flow Tools (for loops, if statements)](https://docs.python.org/3/tutorial/controlflow.html)
+
+- **GeeksforGeeks Articles:**
+    - [Coin Change | DP-7](https://www.geeksforgeeks.org/coin-change-dp-7/)
+    - [Greedy Algorithm to find Minimum number of Coins](https://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/)
+
+- **YouTube Tutorials:**
+    - [Dynamic Programming - Coin Change Problem](https://www.youtube.com/watch?v=jgiZlGzXMBw) for a visual and step-by-step explanation of the dynamic programming approach.
