@@ -1,13 +1,30 @@
 # 0x08. Making Change
 
-## Requirements
-
-- Each file should end with a new line.
-- All files must be executable.
-- A `README.md` file is mandatory in the root directory.
-
 ---
 
+## Concepts
+
+### Greedy Algorithms
+- Understanding how greedy algorithms work and why they are suitable for some coin change problems.
+- Recognizing scenarios where greedy algorithms might not provide the optimal solution.
+
+### Dynamic Programming
+- Using dynamic programming to solve optimization problems like the coin change problem.
+- Identifying overlapping subproblems and optimal substructure in the context of this problem.
+
+### Algorithmic Complexity
+- Analyzing the time and space complexity of different approaches.
+- Striving for solutions with lower complexity to ensure efficiency.
+
+### Problem-Solving Strategies
+- Breaking down the problem into smaller subproblems.
+- Comparing iterative and recursive approaches to dynamic programming.
+
+### Python Programming
+- Manipulating lists and using list comprehensions.
+- Implementing functions with efficient looping and conditional statements.
+
+---
 ## Tasks
 
 | Task # | Filename                | Description                                                                                      |
