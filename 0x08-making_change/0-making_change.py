@@ -4,6 +4,7 @@
 """
 from typing import List
 
+
 def makeChange(coins: List[int], total: int) -> int:
     """
     Determines the fewest number of coins needed to meet a given amount.
@@ -30,4 +31,4 @@ def makeChange(coins: List[int], total: int) -> int:
         total %= coin
 
     # If total is not zero, it's not possible to form it with given coins
-    return count if total ==0 else -1
+    return count if total == 0 else -1
