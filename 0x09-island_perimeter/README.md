@@ -76,13 +76,16 @@ if __name__ == "__main__":
 ---
 ## Resources
 **Python Documentation**
-- [Nested Lists](): How to handle lists of lists.
+- [Nested Lists](https://docs.python.org/3/tutorial/datastructures.html#nested-list-comprehensions): How to handle lists of lists.
 **Articles**
-- GeeksforGeeks: [Python Multi-dimensional Arrays](): Learn to work with 2D arrays effectively.
-- TutorialsPoint: [Python Lists](): Guide to creating and manipulating Python lists.
+- GeeksforGeeks: [Python Multi-dimensional Arrays](https://www.geeksforgeeks.org/python-using-2d-arrays-lists-the-right-way/): Learn to work with 2D arrays effectively.
+- TutorialsPoint: [Python Lists](https://www.tutorialspoint.com/python/python_lists.htm): Guide to creating and manipulating Python lists.
 
 **Videos**
-- [Python 2D Arrays and Lists](): Tutorials on 2D array manipulation in Python.
+- [Python 2D Arrays and Lists](https://www.youtube.com/watch?feature=shared&v=aNzepGawwCI): Tutorials on 2D array manipulation in Python.
 
+
+[*Mock Technical Interview*](https://www.youtube.com/watch?v=fFgEM6CMQc4)
+ 
 ---
 ---
