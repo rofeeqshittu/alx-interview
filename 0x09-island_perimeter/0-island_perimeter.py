@@ -2,16 +2,15 @@
 """
     Module to calculate the perimeter of an island in a grid.
 """
-from typing import List
 
 
-def island_perimeter(grid: List[List[int]]) -> int:
+def island_perimeter(grid):
     """
     Calculate the perimeter of the island in the grid.
 
     Args:
-        grid (List[List[int]]): A 2D list representing the map, where
-                                0 = water and 1 = land.
+        grid: A 2D list representing the map, where
+             0 = water and 1 = land.
 
     Returns:
         int: The total perimeter of the island.
