@@ -5,6 +5,10 @@
 
 
 def isWinner(x, nums):
+    """
+    Module to get the winner of the prime game question.
+    """
+
     # Step 1:  Find the largest number in the game
     max_num = max(nums)
 
